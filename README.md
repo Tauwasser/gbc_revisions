@@ -1,3 +1,6 @@
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+
 This repository contains a few Python 3 scripts to analyze the 
 differences between *Shin Megami Tensei: Aka no Sho* and
 *Shin Megami Tensei: Kuro no Sho* revisions v1.0 and v1.1.
