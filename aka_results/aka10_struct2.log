@@ -1,4 +1,4 @@
-Processing entry 80 table 13:6763
+Processing entry 00 table 13:6763
         Processing struct 00 at 13:6763
             06 82 67
         Processing struct 01 at 13:6766
@@ -21,7 +21,7 @@ Processing entry 80 table 13:6763
             25 D8 67
         Processing struct 0A at 13:6781
             FF 09 14
-Processing entry 80 table 13:67E0
+Processing entry 01 table 13:67E0
         Processing struct 00 at 13:67E0
             00 F6 67
         Processing struct 01 at 13:67E3
@@ -38,7 +38,7 @@ Processing entry 80 table 13:67E0
             22 34 68
         Processing struct 07 at 13:67F5
             FF 08 11
-Processing entry 80 table 13:683C
+Processing entry 02 table 13:683C
         Processing struct 00 at 13:683C
             00 49 68
         Processing struct 01 at 13:683F
@@ -49,7 +49,7 @@ Processing entry 80 table 13:683C
             21 6F 68
         Processing struct 04 at 13:6848
             FF 10 0B
-Processing entry 80 table 13:6877
+Processing entry 03 table 13:6877
         Processing struct 00 at 13:6877
             00 93 68
         Processing struct 01 at 13:687A
@@ -70,7 +70,7 @@ Processing entry 80 table 13:6877
             14 E1 68
         Processing struct 09 at 13:6892
             FF 0C 16
-Processing entry 80 table 13:68E9
+Processing entry 04 table 13:68E9
         Processing struct 00 at 13:68E9
             00 F3 68
         Processing struct 01 at 13:68EC
@@ -79,7 +79,7 @@ Processing entry 80 table 13:68E9
             12 0A 69
         Processing struct 03 at 13:68F2
             FF 09 1A
-Processing entry 80 table 13:6912
+Processing entry 05 table 13:6912
         Processing struct 00 at 13:6912
             16 22 69
         Processing struct 01 at 13:6915
@@ -92,7 +92,7 @@ Processing entry 80 table 13:6912
             0F 49 69
         Processing struct 05 at 13:6921
             FF 0C 0A
-Processing entry 80 table 13:6951
+Processing entry 06 table 13:6951
         Processing struct 00 at 13:6951
             00 67 69
         Processing struct 01 at 13:6954
@@ -109,7 +109,7 @@ Processing entry 80 table 13:6951
             13 CF 69
         Processing struct 07 at 13:6966
             FF 15 24
-Processing entry 80 table 13:69D0
+Processing entry 07 table 13:69D0
         Processing struct 00 at 13:69D0
             00 E0 69
         Processing struct 01 at 13:69D3
@@ -122,7 +122,7 @@ Processing entry 80 table 13:69D0
             05 00 6A
         Processing struct 05 at 13:69DF
             FF 0C 0D
-Processing entry 80 table 13:6A08
+Processing entry 08 table 13:6A08
         Processing struct 00 at 13:6A08
             00 18 6A
         Processing struct 01 at 13:6A0B
@@ -135,7 +135,7 @@ Processing entry 80 table 13:6A08
             0A 4D 6A
         Processing struct 05 at 13:6A17
             FF 06 06
-Processing entry 80 table 13:6A55
+Processing entry 09 table 13:6A55
         Processing struct 00 at 13:6A55
             01 73 6A
         Processing struct 01 at 13:6A58
@@ -180,7 +180,7 @@ Processing entry 80 table 13:6A55
             6D 14 06
         Processing struct 15 at 13:6A94
             FF 00 08
-Processing entry 80 table 13:6B02
+Processing entry 0A table 13:6B02
         Processing struct 00 at 13:6B02
             02 0F 6B
         Processing struct 01 at 13:6B05
@@ -191,7 +191,7 @@ Processing entry 80 table 13:6B02
             20 27 6B
         Processing struct 04 at 13:6B0E
             FF 16 0A
-Processing entry 80 table 13:6B36
+Processing entry 0B table 13:6B36
         Processing struct 00 at 13:6B36
             02 4C 6B
         Processing struct 01 at 13:6B39
@@ -208,19 +208,19 @@ Processing entry 80 table 13:6B36
             21 8A 6B
         Processing struct 07 at 13:6B4B
             FF 18 21
-Processing entry 80 table 13:6B99
+Processing entry 0C table 13:6B99
         Processing struct 00 at 13:6B99
             00 9D 6B
         Processing struct 01 at 13:6B9C
             FF 17 13
-Processing entry 80 table 13:6BA5
+Processing entry 0D table 13:6BA5
         Processing struct 00 at 13:6BA5
             01 AC 6B
         Processing struct 01 at 13:6BA8
             02 B4 6B
         Processing struct 02 at 13:6BAB
             FF 20 1C
-Processing entry 80 table 13:6BBC
+Processing entry 0E table 13:6BBC
         Processing struct 00 at 13:6BBC
             00 C9 6B
         Processing struct 01 at 13:6BBF
@@ -231,7 +231,7 @@ Processing entry 80 table 13:6BBC
             12 E1 6B
         Processing struct 04 at 13:6BC8
             FF 0E 14
-Processing entry 80 table 13:6BE9
+Processing entry 0F table 13:6BE9
         Processing struct 00 at 13:6BE9
             00 F6 6B
         Processing struct 01 at 13:6BEC
@@ -242,11 +242,11 @@ Processing entry 80 table 13:6BE9
             18 1C 6C
         Processing struct 04 at 13:6BF5
             FF 0F 0E
-Processing entry 80 table 13:6C2B
+Processing entry 10 table 13:6C2B
         Processing struct 00 at 13:6C2B
             02 2F 6C
         Processing struct 01 at 13:6C2E
             FF 0A 06
-Processing entry 80 table 13:6C37
+Processing entry 11 table 13:6C37
         Processing struct 00 at 13:6C37
             FF 00 00

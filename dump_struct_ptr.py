@@ -19,12 +19,12 @@ with open(romname, 'rb') as f:
         data = f.read(banksize)
 
 with open(outname, 'w') as f:
-    for bank in range(0,9):
-        ptr = getByte(rom, 0x41AF + bank * 2 + 1)
+    for entry in range(0,9):
+        ptr = getByte(rom, 0x41AF + entry * 2 + 1)
         ptr <<= 8
-        ptr |= getByte(rom, 0x41AF + bank * 2)
+        ptr |= getByte(rom, 0x41AF + entry * 2)
         
-        print('Processing bank {0:02X} table 13:{1:04X}'.format(bank, ptr))
+        print('Processing entry {0:02X} table 13:{1:04X}'.format(entry, ptr))
         elem0 = getByte(rom, ptr + 1)
         elem0 <<= 8
         elem0 |= getByte(rom, ptr)

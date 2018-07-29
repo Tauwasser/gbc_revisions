@@ -1,4 +1,4 @@
-Processing bank 00 table 13:41E4
+Processing entry 00 table 13:41E4
     Elements: 28
     Processing element 00 with 10 structs at 13:4234
         Processing struct 00 at 13:4235
@@ -334,7 +334,7 @@ Processing bank 00 table 13:41E4
     Processing element 27 with 01 structs at 13:45C7
         Processing struct 00 at 13:45C8
             07 0B 19 0C 07 13
-Processing bank 01 table 13:4A5A
+Processing entry 01 table 13:4A5A
     Elements: 2C
     Processing element 00 with 03 structs at 13:4AB2
         Processing struct 00 at 13:4AB3
@@ -614,7 +614,7 @@ Processing bank 01 table 13:4A5A
         Processing struct 00 at 13:4D95
             09 0E 11 0A 04 43
     Processing element 2B with 00 structs at 13:4D9B
-Processing bank 02 table 13:4DA8
+Processing entry 02 table 13:4DA8
     Elements: 27
     Processing element 00 with 05 structs at 13:4DF6
         Processing struct 00 at 13:4DF7
@@ -897,7 +897,7 @@ Processing bank 02 table 13:4DA8
             0A 07 05 17 07 03
         Processing struct 02 at 13:50ED
             10 05 05 1D 06 03
-Processing bank 03 table 13:50F3
+Processing entry 03 table 13:50F3
     Elements: 1A
     Processing element 00 with 09 structs at 13:5127
         Processing struct 00 at 13:5128
@@ -1161,7 +1161,7 @@ Processing bank 03 table 13:50F3
             06 0B 18 05 05 43
         Processing struct 01 at 13:53FF
             0B 0B 18 0A 05 43
-Processing bank 04 table 13:5405
+Processing entry 04 table 13:5405
     Elements: 1E
     Processing element 00 with 01 structs at 13:5441
         Processing struct 00 at 13:5442
@@ -1441,7 +1441,7 @@ Processing bank 04 table 13:5405
             10 09 1C 05 06 01
         Processing struct 07 at 13:5741
             09 06 1B 09 15 01
-Processing bank 05 table 13:5747
+Processing entry 05 table 13:5747
     Elements: 35
     Processing element 00 with 15 structs at 13:57B1
         Processing struct 00 at 13:57B2
@@ -1908,7 +1908,7 @@ Processing bank 05 table 13:5747
             08 0B 30 10 0B 43
         Processing struct 01 at 13:5CB4
             09 0B 30 10 0B 43
-Processing bank 06 table 13:5E76
+Processing entry 06 table 13:5E76
     Elements: 19
     Processing element 00 with 11 structs at 13:5EA8
         Processing struct 00 at 13:5EA9
@@ -2133,7 +2133,7 @@ Processing bank 06 table 13:5E76
     Processing element 18 with 01 structs at 13:610C
         Processing struct 00 at 13:610D
             0A 0A 16 12 04 43
-Processing bank 07 table 13:612B
+Processing entry 07 table 13:612B
     Elements: 08
     Processing element 00 with 01 structs at 13:613B
         Processing struct 00 at 13:613C
@@ -2183,7 +2183,7 @@ Processing bank 07 table 13:612B
     Processing element 07 with 01 structs at 13:61B4
         Processing struct 00 at 13:61B5
             08 0E 04 21 14 13
-Processing bank 08 table 13:61BB
+Processing entry 08 table 13:61BB
     Elements: 0F
     Processing element 00 with 02 structs at 13:61D9
         Processing struct 00 at 13:61DA

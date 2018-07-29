@@ -24,7 +24,7 @@ with open(outname, 'w') as f:
         ptr <<= 8
         ptr |= getByte(rom, 0x6535 + entry * 2)
         
-        print('Processing entry {0:02X} table 13:{1:04X}'.format(bank, ptr))
+        print('Processing entry {0:02X} table 13:{1:04X}'.format(entry, ptr))
         
         for s in range(0, 256): # some limit
             print('        Processing struct {0:02X} at 13:{1:04X}'.format(s, ptr))
