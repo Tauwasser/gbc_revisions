@@ -1,0 +1,3 @@
+Result,Address A,Size A,Address B,Size B
+Match,C000h,17BAh,C000h,17BAh
+Only in B,,,D7BAh,2h
