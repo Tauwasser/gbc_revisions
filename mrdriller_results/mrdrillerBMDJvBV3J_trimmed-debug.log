@@ -1,0 +1,3722 @@
+[DEBUG   ] Shift: 00:0152 -- 0 --> 4
+[DEBUG   ] Shift: 01:4000 -- 4 --> 0
+[DEBUG   ] Shift: 40:4000 -- 0 --> -524288
+[DEBUG   ] Insertion: 00:0152 -- -4
+[DEBUG   ] Deletion: 00:3FFC -- -4
+[DEBUG   ] Deletion: 20:4000 -- -524288
+[DEBUG   ] Info: 00:0253 -- 32 bytes ref bank 00
+[DEBUG   ] Info: 00:0F34 -- 18 bytes ref bank 00
+[DEBUG   ] Info: 00:1925 -- 30 bytes ref bank 00
+[DEBUG   ] Info: 00:23F7 -- 12 bytes ref bank 00
+[DEBUG   ] Info: 00:26F3 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:26F8 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:26FD -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2702 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2707 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:270C -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2711 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2716 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:271B -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2720 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2725 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:272A -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:272F -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2734 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2739 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:273E -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2743 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2748 -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:274D -- 2 bytes ref bank 00
+[DEBUG   ] Info: 00:2752 -- 196 bytes ref bank 00
+[DEBUG   ] Info: 00:2A45 -- 6 bytes ref bank 00
+[DEBUG   ] Info: 00:2C61 -- 6 bytes ref bank 00
+[DEBUG   ] Info: 00:2DEB -- 4 bytes ref bank 00
+[INFO    ] Checking record 00:0041...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0390 -- 0394
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0049...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 09BB -- 09BF
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0140...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:0148...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:014D...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:0157...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:016E...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:0179...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 01FE -- 0202
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0185...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:018B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:018E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 043E -- 0442
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0191...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0449 -- 044D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0194...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 045F -- 0463
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:01B1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:01ED...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 097C -- 0980
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0210...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 02F3 -- 02F7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0213...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 034D -- 0351
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0223...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0226...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 08A0 -- 08A4
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0229...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0834 -- 0838
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:022C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0245 -- 0249
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:022F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0883 -- 0887
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0232...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 081B -- 081F
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0235...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 035C -- 0360
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:023E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0944 -- 0948
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0248...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0253 -- 0257
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0253...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 0273 -- 0277
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0255...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 027B -- 027F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0257...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 0283 -- 0287
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0259...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 028B -- 028F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:025B...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 0293 -- 0297
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:025D...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 029B -- 029F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:025F...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02A3 -- 02A7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0261...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02AB -- 02AF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0263...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02B3 -- 02B7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0265...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02BB -- 02BF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0267...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02C3 -- 02C7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0269...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02CB -- 02CF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:026B...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02D3 -- 02D7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:026D...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02DB -- 02DF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:026F...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02E3 -- 02E7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0271...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 02EB -- 02EF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0276...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:027E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0286...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:028E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0291...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0F2D -- 0F31
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0296...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:029E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02A1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C5A -- 2C5E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02A6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02A9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2DE1 -- 2DE5
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02AE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02B6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02BE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02C6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02CE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02D6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02DE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02E6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:02EE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 079E -- 07A2
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:035A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0152 -- 0156
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:03BF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3977 -- 397B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:03C2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3152 -- 3156
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:03C5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 063A -- 063E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:03C8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0994 -- 0998
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:04D9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0606 -- 060A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:04F7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0504...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:051A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:053E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0606 -- 060A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:056A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0606 -- 060A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:058D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:059E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:05B8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 06FD -- 0701
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:05DD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0606 -- 060A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0618...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0774...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0778 -- 077C
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:07DF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07A8 -- 07AC
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:07E5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07B4 -- 07B8
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:07EB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07C0 -- 07C4
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:07F0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07F9 -- 07FD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:086A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 086E -- 0872
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0889...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3C0F -- 3C13
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:08F6...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:08FA...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:0953...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0A1A -- 0A1E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0956...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 09DB -- 09DF
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0968...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0A3F -- 0A43
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:096B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0AED -- 0AF1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:096E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B49 -- 0B4D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0971...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B83 -- 0B87
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0975...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B37 -- 0B3B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0978...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B49 -- 0B4D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:09C3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3300 -- 3304
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0A15...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B37 -- 0B3B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0AA1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B37 -- 0B3B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0AD1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B37 -- 0B3B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B56...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B5A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B60...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B64...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B73...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0B77...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0B7D -- 0B81
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F30...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0F34 -- 0F38
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0F34...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 0F46 -- 0F4A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F36...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 100B -- 100F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F38...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 102F -- 1033
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F3A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1093 -- 1097
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F3C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 10B6 -- 10BA
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F3E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 10D2 -- 10D6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F40...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1157 -- 115B
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F42...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 1261 -- 1265
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:0F44...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 12EA -- 12EE
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:0F47...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F4D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F50...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1354 -- 1358
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F53...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 063A -- 063E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F61...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0F9B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:0FB4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FC2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FCC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 11A0 -- 11A4
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FCF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 147F -- 1483
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FD6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FDD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 10B6 -- 10BA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FEB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:0FFB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1231 -- 1235
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1002...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:100F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:101C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1039...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 14DC -- 14E0
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:103C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:104E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:1054...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:105B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:108D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1090...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1442 -- 1446
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1097...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:10A4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:10A9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0805 -- 0809
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:10B7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:10C4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:10D3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1102...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 11A0 -- 11A4
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:110C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:110F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 147F -- 1483
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1121...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:112B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1231 -- 1235
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1140...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1403 -- 1407
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:114C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1154...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1171 -- 1175
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1158...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1165...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1184...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1196 -- 119A
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1187...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1190...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 119B -- 119F
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1193...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:11AB...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:1232...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 21C3 -- 21C7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1237...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1251...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:1257...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:125E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1262...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1265...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1325 -- 1329
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1287...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12A5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12B5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12CE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12E7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12EB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 151C -- 1520
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12EE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1325 -- 1329
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:12FB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1300...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0805 -- 0809
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1316...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 32AF -- 32B3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1338...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 134A -- 134E
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:133B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1344...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 134F -- 1353
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1347...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1366...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1376...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1386...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1399...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:13A9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:13B5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:13C9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:13D8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:13EF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1400...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1412...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:1471...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:148B...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:151D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1597 -- 159B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1520...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1664 -- 1668
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1523...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 15F4 -- 15F8
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1526...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 170A -- 170E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:152F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1691 -- 1695
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1532...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 16E3 -- 16E7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1537...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 153A -- 153E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:15FF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0727 -- 072B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1610...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 176B -- 176F
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1630...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 18B3 -- 18B7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:163F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1660...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1770 -- 1774
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1675...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0727 -- 072B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1912...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1DA6 -- 1DAA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1918...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1925 -- 1929
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:191C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1CF8 -- 1CFC
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:191F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1D73 -- 1D77
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1922...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2375 -- 2379
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1925...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1943 -- 1947
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1927...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 19AD -- 19B1
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1929...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 19D5 -- 19D9
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:192B...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 19FD -- 1A01
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:192D...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1A8D -- 1A91
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:192F...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1B1C -- 1B20
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1931...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1B3C -- 1B40
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1933...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1B8B -- 1B8F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1935...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1BB7 -- 1BBB
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1937...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1C04 -- 1C08
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1939...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1C2A -- 1C2E
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:193B...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1C52 -- 1C56
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:193D...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1C85 -- 1C89
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:193F...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1CAD -- 1CB1
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:1941...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 1CC9 -- 1CCD
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:19AA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 22CF -- 22D3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19AE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19CF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19E8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1DBA -- 1DBE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19EB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1DE6 -- 1DEA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19EE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1FB8 -- 1FBC
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19F1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EDD -- 1EE1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19F4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2032 -- 2036
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19F7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2160 -- 2164
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:19FA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A12...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A18...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F0C -- 1F10
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A1B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A30...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A40...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A5B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A6E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1A89 -- 1A8D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1A7B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1FA3 -- 1FA7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A80...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 20F9 -- 20FD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A83...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2160 -- 2164
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A86...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1A98...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1AFC -- 1B00
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1AEB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1FA3 -- 1FA7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1AF0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 20F9 -- 20FD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1AF3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2160 -- 2164
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1AF6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B1D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B20...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B25...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 00:1B34...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1CCA -- 1CCE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B39...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F0C -- 1F10
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B3D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B40...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B85...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1B8C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1BAA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1A89 -- 1A8D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1BD6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1A89 -- 1A8D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1BE9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EDD -- 1EE1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1BEC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2032 -- 2036
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1BFE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2160 -- 2164
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C01...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C05...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C0C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C17...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 00:1C20...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1CCA -- 1CCE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C25...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F0C -- 1F10
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C39...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1A89 -- 1A8D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1C46...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1EAA -- 1EAE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C49...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2032 -- 2036
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C4C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2160 -- 2164
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C4F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2469 -- 246D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C53...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 00:1C65...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2498 -- 249C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C6F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 24C2 -- 24C6
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1C79...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 24FC -- 2500
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1CAE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 00:1CCE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1D93...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1D96...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1D99...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1DA0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BF4 -- 2BF8
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1DA3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C1E -- 2C22
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1E63...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1E7C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1E86...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1ECB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1EE8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1EFA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1F08 -- 1F0C
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1F28...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1F3D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1F64...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 1F83 -- 1F87
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1FD0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 201E -- 2022
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1FE5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:1FE8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1FEB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:1FFE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2022 -- 2026
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2033...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1FA3 -- 1FA7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2036...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 20F9 -- 20FD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2076...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2080...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:20A8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:20DF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 1F4F -- 1F53
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2104...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:211D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:213D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:21B3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:21BD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:21DB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2322 -- 2326
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:21EC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2255 -- 2259
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:224C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2256...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 00:2263...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:226D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:229C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:229F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22A2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22B8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22C2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22D5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07DD -- 07E1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22E2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07DD -- 07E1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22EF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07DD -- 07E1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:22FC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07DD -- 07E1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2309...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07DD -- 07E1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:231C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2334...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:234F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2360...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2379...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2439 -- 243D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:239F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:23A5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 23EE -- 23F2
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:23BB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:23C2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 23F7 -- 23FB
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:23E8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:23F7...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2403 -- 2407
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:23F9...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 240C -- 2410
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:23FB...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2415 -- 2419
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:23FD...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 241E -- 2422
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:23FF...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2427 -- 242B
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2401...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2430 -- 2434
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2457...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2463...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:249C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 24BA -- 24BE
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:24D7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:24DA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 264B -- 264F
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:24DD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 25FA -- 25FE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:24F6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 260A -- 260E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2510...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2586 -- 258A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2513...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2516...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 269F -- 26A3
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2519...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 25FA -- 25FE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2580...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 260A -- 260E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:25C9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 330E -- 3312
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:26F3...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2752 -- 2756
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:26F8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2754 -- 2758
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:26FD...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2756 -- 275A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2702...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2758 -- 275C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2707...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2762 -- 2766
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:270C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2770 -- 2774
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2711...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 277E -- 2782
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2716...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2786 -- 278A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:271B...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 278E -- 2792
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2720...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2796 -- 279A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2725...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 279E -- 27A2
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:272A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 27B8 -- 27BC
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:272F...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27BC -- 27C0
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2734...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27C0 -- 27C4
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2739...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27C4 -- 27C8
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:273E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27C8 -- 27CC
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2743...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 27CE -- 27D2
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2748...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27D2 -- 27D6
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:274D...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     loadstore: 27D6 -- 27DA
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2752...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2816 -- 281A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2754...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 281F -- 2823
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2756...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2828 -- 282C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2758...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2831 -- 2835
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:275A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 283A -- 283E
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:275C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2847 -- 284B
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:275E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 283A -- 283E
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2760...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2816 -- 281A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2762...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2877 -- 287B
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2764...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2884 -- 2888
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2766...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2891 -- 2895
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2768...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 289E -- 28A2
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:276A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 289E -- 28A2
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:276C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2891 -- 2895
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:276E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 281F -- 2823
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2770...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28AB -- 28AF
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2772...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28B8 -- 28BC
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2774...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28C5 -- 28C9
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2776...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28C5 -- 28C9
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2778...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28C5 -- 28C9
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:277A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28B8 -- 28BC
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:277C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2828 -- 282C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:277E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2854 -- 2858
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2780...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2861 -- 2865
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2782...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 286A -- 286E
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2784...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2861 -- 2865
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2786...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2816 -- 281A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2788...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2816 -- 281A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:278A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28D2 -- 28D6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:278C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28E3 -- 28E7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:278E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 281F -- 2823
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2790...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 281F -- 2823
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2792...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28D2 -- 28D6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2794...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28E3 -- 28E7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2796...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2828 -- 282C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2798...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2828 -- 282C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:279A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28D2 -- 28D6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:279C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28E3 -- 28E7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:279E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27A0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27A2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27A4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27A6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27A8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27AA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27AC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27AE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27B0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28F4 -- 28F8
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27B2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28FD -- 2901
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27B4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2906 -- 290A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27B6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2816 -- 281A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27B8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 290F -- 2913
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27BA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 291C -- 2920
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27BC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2929 -- 292D
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27BE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2936 -- 293A
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27C0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2943 -- 2947
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27C2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 294C -- 2950
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27C4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2955 -- 2959
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27C6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 295E -- 2962
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27C8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 296B -- 296F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27CA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2984 -- 2988
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27CC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 299D -- 29A1
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27CE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29B6 -- 29BA
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27D0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29BF -- 29C3
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27D2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29C8 -- 29CC
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27D4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29D5 -- 29D9
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27D6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27D8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27DA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29F3 -- 29F7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27DC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A04 -- 2A08
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27DE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27E0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27E2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27E4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27E6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27E8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27EA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27EC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27EE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A04 -- 2A08
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27F0...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29F3 -- 29F7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27F2...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27F4...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27F6...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27F8...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29F3 -- 29F7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27FA...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A04 -- 2A08
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27FC...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:27FE...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2800...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2802...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2804...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2806...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2808...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:280A...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A15 -- 2A19
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:280C...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A04 -- 2A08
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:280E...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29F3 -- 29F7
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2810...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2812...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 29E2 -- 29E6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2814...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 28D2 -- 28D6
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2A2F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2A45 -- 2A49
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2A3F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BF4 -- 2BF8
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2A42...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C1E -- 2C22
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2A45...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2A4B -- 2A4F
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2A47...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2AD0 -- 2AD4
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2A49...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2AFA -- 2AFE
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2A6F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2A74...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2A77...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2AA2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2ACB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2AE4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B3E -- 2B42
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2B1B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2B4B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0BAD -- 0BB1
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2C4D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2C5D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2C61 -- 2C65
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2C61...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2C67 -- 2C6B
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2C63...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2D3C -- 2D40
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2C65...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2D3E -- 2D42
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2C68...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2C6E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2C84...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2C94...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CA6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CBC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CC8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CD6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2D89 -- 2D8D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2CD9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CE4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2D9C -- 2DA0
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2CE7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2CF2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DAE -- 2DB2
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2CF5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D00...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DB7 -- 2DBB
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2D03...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D0E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DC0 -- 2DC4
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2D11...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D1C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DCF -- 2DD3
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2D1F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D22...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D2B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2D4C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2DE7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DEB -- 2DEF
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2DEB...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2E1F -- 2E23
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2DED...
+[DEBUG   ]     Infotype: ptrtbl
+[DEBUG   ]     ptrtbl: 2F18 -- 2F1C
+[DEBUG   ]     ptrtbl: shift 0004
+[INFO    ] Checking record 00:2E21...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E27...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E2A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3016 -- 301A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E36...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E42...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E4E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E5C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 3079 -- 307D
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2E5F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E6A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 3087 -- 308B
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2E6D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E78...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 3097 -- 309B
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2E7B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E86...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 30BB -- 30BF
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2E89...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2E94...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 30A7 -- 30AB
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2E97...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2EA2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 30C3 -- 30C7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2EA5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2EA8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2EAB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DFF -- 2E03
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2ECB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2EEC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2EEF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2EF2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F08...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 2DEF -- 2DF3
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2F19...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 303C -- 3040
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F3F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2F42...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F45...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F48...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2FC7 -- 2FCB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F6E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 26F3 -- 26F7
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2F71...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C53 -- 2C57
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F74...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2B94 -- 2B98
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F77...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2FC7 -- 2FCB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F96...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 30BB -- 30BF
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2F99...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2F9C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FBE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 30B7 -- 30BB
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:2FC1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FC4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FC9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2FF2 -- 2FF6
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FDA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FDD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FEC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BF4 -- 2BF8
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:2FEF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2C1E -- 2C22
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3029...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3038...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3044...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 3068 -- 306C
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:317C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3186 -- 318A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:317F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 31CA -- 31CE
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:31E3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3280 -- 3284
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:31F1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3225 -- 3229
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:31FB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3225 -- 3229
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3205...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3225 -- 3229
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:320F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3225 -- 3229
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3219...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3225 -- 3229
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:321F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3239 -- 323D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3222...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 31A8 -- 31AC
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:322C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3272 -- 3276
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:323D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 33B8 -- 33BC
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 00:3256...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3272 -- 3276
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:326B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3280 -- 3284
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:32DC...
+[DEBUG   ]     Infotype: None
+[INFO    ]     Interesting...
+[INFO    ] Checking record 00:381D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 372E -- 3732
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3822...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 372F -- 3733
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3827...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 379B -- 379F
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:383C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:384C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:38FD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 38CD -- 38D1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3909...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 38CD -- 38D1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3915...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 38CD -- 38D1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:397C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 391E -- 3922
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3983...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 380E -- 3812
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3997...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 384F -- 3853
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3C23...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3C5E -- 3C62
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3C2D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3C5E -- 3C62
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3C47...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3C5E -- 3C62
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 00:3C51...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3C5E -- 3C62
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:402D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:403A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4047...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4054...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4061...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:406E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:407B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4088...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4095...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40A2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40B7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40C6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40DB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40EE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:40FD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4101...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4107...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4115...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3887 -- 388B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4123...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3887 -- 388B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4131...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3887 -- 388B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4137...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 38CD -- 38D1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4145...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4151...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:41BF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:41CF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:41DF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:41EF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4203...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4213...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:422E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4249...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:425E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4263...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0805 -- 0809
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4282...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4423...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:444B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4DC3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4EC4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4F30...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:4F89...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:504B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0BAD -- 0BB1
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 01:507E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0BAD -- 0BB1
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 01:50B1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: 0BAD -- 0BB1
+[DEBUG   ]     loadstore: rom shift 0004
+[INFO    ] Checking record 01:5286...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:5296...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:62DB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:635D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0727 -- 072B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:64B4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:653A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:6560...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:66BF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:6739...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:681B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:68D3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:6A8E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:6BF3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:6C18...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:70C9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:70D8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:70FA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:711C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:713E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:7160...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:7182...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:71A4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFC -- FFF7
+[INFO    ] Checking record 01:7829...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7D47...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7D72...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7D98...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 21C3 -- 21C7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7DB1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7DD5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2273 -- 2277
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 01:7DF0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:77C8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:77E0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:77F3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:77FF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:780D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:781B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3177 -- 317B
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7824...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:782B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 03:783C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7875...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7894...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:789A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78AA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78BA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78CA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78D6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78E4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:78F9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7902...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 03:790A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 03:7911...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7923...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7977...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:799F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:79DF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7A48...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 03:7AC9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7484...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:748A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:749E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:74B1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:74BD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:74CB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:74DD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:74F0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 04:74F8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 04:74FF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7511...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:752C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7558...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7584...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:75A4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:75D4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:75D9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 32AF -- 32B3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7627...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:762D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:763D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:764D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7659...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7667...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7679...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:767F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 04:7687...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 04:768E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:76A0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:76C4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:76DF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:76FB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:771B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7735...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:77BA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:77CD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:77E0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:78D9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:78F4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7901...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:7981...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 04:798D...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:52BC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 07:52C4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 07:52CB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5373...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5376...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 07:537E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 07:5385...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5392...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:539F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53AC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53B9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53C6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53D3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53E0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53ED...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:53FA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5407...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5414...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5421...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:542E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:543B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5492...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:54A0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5528...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5536...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5544...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:55B6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:55C4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:564C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:565A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:56C8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:56D6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:575E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:576C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:57DA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:57E8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5856...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5864...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:58D2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:58E0...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5968...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5976...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5984...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:59F6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5A7E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5A8C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5A9A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5B26...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5B34...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5BD6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5BE4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5BF2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5C4A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:5C58...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:62E8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 04D5 -- 04D9
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:62FD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:6379...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:6425...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 053A -- 053E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:6433...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 07:648E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4012...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4018...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4028...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4038...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4048...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:405A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4068...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4076...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4084...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4096...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:40A4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:40B7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 08:40BF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 08:40C6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:40D8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:411C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:412C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:413E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 32AF -- 32B3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:415E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4163...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0805 -- 0809
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:41B1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:41CA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:41D6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4344...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:43E7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:43ED...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:43FD...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4409...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:441A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4428...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4436...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4444...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4452...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4460...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:446E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:447C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:447F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:4488...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:44DE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:44EB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30C7 -- 30CB
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 08:44EE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0693 -- 0697
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 09:40E6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 09:4200...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 09:43C5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 09:4456...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 09:4536...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75AE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75B4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75BB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 382E -- 3832
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75CE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75DE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:75EA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7604...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7642...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7661...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7679...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0A:7681...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0A:7688...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:769A...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:772E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7754...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7865...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:786B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7878...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 382E -- 3832
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:788B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:789B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:78A7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:78C4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7910...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:793B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7947...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0A:794F...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0A:7956...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7968...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:79FF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7A39...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7A45...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7A5E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7A70...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7ACF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7AE2...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7B33...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7B53...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7E5B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3272 -- 3276
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7EAF...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3280 -- 3284
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0A:7EB6...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 31A8 -- 31AC
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:401C...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 03ED -- 03F1
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4022...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4035...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4045...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4055...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4061...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0494 -- 0498
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4087...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4097...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 07E9 -- 07ED
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:409E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0408 -- 040C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:40A4...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0F:40AC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     loadstore: FFFD -- FFF6
+[INFO    ] Checking record 0F:40B3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:40C5...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0566 -- 056A
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4120...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4125...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0805 -- 0809
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4128...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3298 -- 329C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4158...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0768 -- 076C
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4190...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 33A6 -- 33AA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:41CA...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 33A6 -- 33AA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4210...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 30EF -- 30F3
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:422E...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 33A6 -- 33AA
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:42DB...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4391...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 061C -- 0620
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:43B3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:45E1...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4686...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 330E -- 3312
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:469B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 073A -- 073E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:46D7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3343 -- 3347
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:4721...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3343 -- 3347
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 0F:473B...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78B3...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78B9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0411 -- 0415
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78C9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78D9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78E9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 077F -- 0783
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:78F7...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 3119 -- 311D
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7927...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 04D5 -- 04D9
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:79CE...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 053A -- 053E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:79E8...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 05D9 -- 05DD
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7A27...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 315E -- 3162
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7A90...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 315E -- 3162
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7ABC...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 0631 -- 0635
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7AF9...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 04D5 -- 04D9
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7B23...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 053A -- 053E
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7B45...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 315E -- 3162
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7B81...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 04D5 -- 04D9
+[DEBUG   ]     call: shift 0004
+[INFO    ] Checking record 14:7C04...
+[DEBUG   ]     Infotype: None
+[DEBUG   ]     call: 2BB3 -- 2BB7
+[DEBUG   ]     call: shift 0004
+[INFO    ] ------------------------------------------------------------------------
+[INFO    ] filtered/unfiltered 10/930
+[INFO    ] Difference   at A 00:0140 -  2 -- B: 00:0140 -  2
+[INFO    ] Difference   at A 00:0148 -  1 -- B: 00:0148 -  1
+[INFO    ] Difference   at A 00:014D -  3 -- B: 00:014D -  3
+[INFO    ] Insertion    at A 00:0152 -  4 -- B: 00:0152 -  4
+[INFO    ] Difference   at A 00:016E -  1 -- B: 00:0172 -  1
+[INFO    ] Difference   at A 00:08F6 -  1 -- B: 00:08FA -  1
+[INFO    ] Difference   at A 00:08FA -  1 -- B: 00:08FE -  1
+[INFO    ] Difference   at A 00:11AB -  1 -- B: 00:11AF -  1
+[INFO    ] Difference   at A 00:1412 -  1 -- B: 00:1416 -  1
+[INFO    ] Difference   at A 00:148B -  1 -- B: 00:148F -  1
+[INFO    ] Difference   at A 00:32DC -  1 -- B: 00:32E0 -  1
+[INFO    ] Deletion     at A 00:3FFC -  4 -- B: 01:4000 -  4
+[INFO    ] Deletion     at A 20:4000 - 524288 -- B: 20:4000 - 524288
+[INFO    ] ------------------------------------------------------------------------
