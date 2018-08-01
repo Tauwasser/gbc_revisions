@@ -94,20 +94,24 @@ def main():
                                  formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument('--debug', dest='debug', default=False, help='print debug output', action='store_true')
     ap.add_argument('romtype', help='ROM type: aka, kuro')
+    ap.add_argument('versionA', help='ROM A version string')
+    ap.add_argument('versionB', help='ROM B version string')
     ap.add_argument('outfile', nargs='?', help='path to trimmed output diff file')
 
     args = ap.parse_args()
     debug = args.debug
     romtype = args.romtype
     outname = args.outfile
+    versionA = args.versionA
+    versionB = args.versionB
     
     if outname is None:
-        outname = '{0:s}10v11_trimmed{1:s}.log'.format(romtype, '-debug' if debug else '')
+        outname = '{0:s}{2:s}v{3:s}_trimmed{1:s}.log'.format(romtype, '-debug' if debug else '', versionA, versionB)
     
-    romnameA = '{0:s}10_base.gbc'.format(romtype)
-    romnameB = '{0:s}11_base.gbc'.format(romtype)
+    romnameA = '{0:s}{1:s}.gbc'.format(romtype, versionA)
+    romnameB = '{0:s}{1:s}.gbc'.format(romtype, versionB)
     csvname = '{0:s}_compare.csv'.format(romtype)
-    infoname = '{0:s}10_info.txt'.format(romtype)
+    infoname = '{0:s}{1:s}_info.txt'.format(romtype, versionA)
     ramshiftname = '{0:s}_ramshift.csv'.format(romtype)
 
     loglevel = logging.DEBUG if debug else logging.INFO
