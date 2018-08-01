@@ -363,16 +363,17 @@ def main():
                     continue
         
         # check if long call rst $0 0xC7 (DDS-specific)
-        if (0xC7 == pre2A and 0xC7 == pre2B):
-            if (preA == preB and nextA is not None and nextB is not None):
-                called_addrA = (nextA << 8) | curA
-                called_addrB = (nextB << 8) | curB
-                logging.debug('    longcall: {0:02X}:{1:04X} -- {2:02X}:{3:04X}'.format(preA, called_addrA, preB, called_addrB))
-                
-                shift = sumShifts(shifts, preA, called_addrA)
-                logging.debug('    longcall: shift {0:04X}'.format(shift))
-                if (called_addrA + shift == called_addrB):
-                    continue
+        if (romtype == 'aka' or romtype == 'kuro'):
+            if (0xC7 == pre2A and 0xC7 == pre2B):
+                if (preA == preB and nextA is not None and nextB is not None):
+                    called_addrA = (nextA << 8) | curA
+                    called_addrB = (nextB << 8) | curB
+                    logging.debug('    longcall: {0:02X}:{1:04X} -- {2:02X}:{3:04X}'.format(preA, called_addrA, preB, called_addrB))
+                    
+                    shift = sumShifts(shifts, preA, called_addrA)
+                    logging.debug('    longcall: shift {0:04X}'.format(shift))
+                    if (called_addrA + shift == called_addrB):
+                        continue
         
         # check if ld [$NNNN], a
         # check if ld a, [$NNNN]
