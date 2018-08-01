@@ -62,6 +62,14 @@ def sumRamShifts(shifts, bank, ptr):
 
     return shift
 
+def isRamSwitch(switches, ptrA, ptrB):
+    
+    for s in switches:
+        if (ptrA == s['ptrA'] and ptrB == s['ptrB']):
+            return True
+    
+    return False
+    
 def getInfo(info, bank, ptr):
     
     for i in info:
@@ -244,6 +252,7 @@ def main():
         csvr = csv.reader(csvfile, dialect='excel')
         ram_shifts  = []
         ram_deletions = []
+        ram_switches = []
         cur_addr = 0
         for ix, row in enumerate(csvr):
             if (0 == ix or not row):
@@ -275,6 +284,14 @@ def main():
                 ram_deletions.append({
                     'addr' : addressA,
                     'len': sizeA
+                    }
+                )
+            elif row[0] == 'Switch':
+                ram_switches.append({
+                    'ptrA' : addressA,
+                    'lenA' : sizeA,
+                    'ptrB' : addressB,
+                    'lenB' : sizeB,
                     }
                 )
             else:
@@ -420,9 +437,32 @@ def main():
                     else:
                         # target == 'ram'
                         shift = sumRamShifts(ram_shifts, 0, loaded_addrA)
+                        if (isRamSwitch(ram_switches, loaded_addrA, loaded_addrB)):
+                            continue
                     logging.debug('    loadstore: {1:s} shift {0:04X}'.format(shift, target))
                     if (loaded_addrA + shift == loaded_addrB):
                         continue
+        
+        # check if ld a,[$FF00 + $N]
+        # check if ld [$FF00 + $N], a
+        if ( \
+            ( \
+                (0xF0 == preA and 0xF0 == preB) or \
+                (0xE0 == preA and 0xE0 == preB) \
+            ) \
+            and \
+            (r['lenA'] <= 1 and r['lenB'] <= 1)
+           ):
+            if (nextA is not None and nextB is not None):
+                loaded_addrA = 0xFF00 | curA
+                loaded_addrB = 0xFF00 | curB
+                logging.debug('    loadstore: {0:04X} -- {1:04X}'.format(loaded_addrA, loaded_addrB))
+                shift = sumRamShifts(ram_shifts, 0, loaded_addrA)
+                if (isRamSwitch(ram_switches, loaded_addrA, loaded_addrB)):
+                    continue
+                logging.debug('    loadstore: {1:s} shift {0:04X}'.format(shift, 'ram'))
+                if (loaded_addrA + shift == loaded_addrB):
+                    continue
         
         # check if ptr-table
         if (r_info['type'] == 'ptrtbl'):
