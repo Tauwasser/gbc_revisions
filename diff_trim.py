@@ -39,11 +39,11 @@ def parseHex(val):
 
 def sumShifts(shifts, bank, ptr):
     
+    loc_bank = bank if ptr >= 0x4000 else 0x00
     shift = 0
     for s in shifts:
-        if (s['bankA'] > bank) or \
-           (s['bankA'] == bank and s['ptrA'] > ptr) or \
-           (s['bankA'] == 0x00 and s['ptrA'] > ptr) :
+        if (s['bankA'] > loc_bank) or \
+           (s['bankA'] == loc_bank and s['ptrA'] > ptr):
             break
         
         shift += s['shift']
