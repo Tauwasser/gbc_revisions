@@ -62,7 +62,7 @@ def sumRamShifts(shifts, bank, ptr):
 
     return shift
 
-def isRamSwitch(switches, ptrA, ptrB):
+def isRamRemap(switches, ptrA, ptrB):
     
     for s in switches:
         if (ptrA == s['ptrA'] and ptrB == s['ptrB']):
@@ -286,7 +286,7 @@ def main():
                     'len': sizeA
                     }
                 )
-            elif row[0] == 'Switch':
+            elif row[0] == 'Remap':
                 ram_switches.append({
                     'ptrA' : addressA,
                     'lenA' : sizeA,
@@ -437,7 +437,7 @@ def main():
                     else:
                         # target == 'ram'
                         shift = sumRamShifts(ram_shifts, 0, loaded_addrA)
-                        if (isRamSwitch(ram_switches, loaded_addrA, loaded_addrB)):
+                        if (isRamRemap(ram_switches, loaded_addrA, loaded_addrB)):
                             continue
                     logging.debug('    loadstore: {1:s} shift {0:04X}'.format(shift, target))
                     if (loaded_addrA + shift == loaded_addrB):
@@ -458,7 +458,7 @@ def main():
                 loaded_addrB = 0xFF00 | curB
                 logging.debug('    loadstore: {0:04X} -- {1:04X}'.format(loaded_addrA, loaded_addrB))
                 shift = sumRamShifts(ram_shifts, 0, loaded_addrA)
-                if (isRamSwitch(ram_switches, loaded_addrA, loaded_addrB)):
+                if (isRamRemap(ram_switches, loaded_addrA, loaded_addrB)):
                     continue
                 logging.debug('    loadstore: {1:s} shift {0:04X}'.format(shift, 'ram'))
                 if (loaded_addrA + shift == loaded_addrB):

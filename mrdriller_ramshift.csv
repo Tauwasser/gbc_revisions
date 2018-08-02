@@ -1,3 +1,3 @@
 Result,Address A,Size A,Address B,Size B
-Switch,FFFCh,1h,FFF7h,1h
-Switch,FFFDh,1h,FFF6h,1h
+Remap,FFFCh,1h,FFF7h,1h
+Remap,FFFDh,1h,FFF6h,1h
