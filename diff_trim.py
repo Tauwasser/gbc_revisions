@@ -132,6 +132,7 @@ def main():
     ptr_pat = '{0}{0}'.format(byte_pat)
     code_regex = compile('^ *({0}) ({0}):({1}) ({0}):({1})$'.format(byte_pat, ptr_pat))
     ptrtbl_regex = compile('^ *([lhb]{{2,3}}) ({0}) ({0}):({1}) ({0}):({1})$'.format(byte_pat, ptr_pat))
+    ptradd_regex = compile('^ *(\w+) ({0}) ({0}):({1}) ({0}):({1})$'.format(byte_pat, ptr_pat))
     info = []
     with open(infoname, 'r') as f:
         for line in f:
@@ -168,6 +169,27 @@ def main():
                 info.append({
                     'type':    cmd,
                     'fmt':     fmt,
+                    'bank':    getBank(start),
+                    'ptr' :    getPointer(start),
+                    'refBank': bank,
+                    'len' :    end - start
+                    }
+                )
+            elif (cmd == 'ptradd'):
+                m = ptradd_regex.match(args)
+                if (m is None):
+                    logging.warning('Malformed info entry \'{0:s}\'. Skipping...'.format(line))
+                    continue
+                kind = m.group(1)
+                if (kind not in ['simple']):
+                    logging.warning('Malformed info entry \'{0:s}\'. Skipping...'.format(line))
+                    continue
+                bank = int(m.group(2), 16)
+                start = int(m.group(3), 16) * banksize + (int(m.group(4), 16) & 0x3FFF)
+                end = int(m.group(5), 16) * banksize + (int(m.group(6), 16) & 0x3FFF)
+                info.append({
+                    'type':    cmd,
+                    'kind':    kind,
                     'bank':    getBank(start),
                     'ptr' :    getPointer(start),
                     'refBank': bank,
@@ -356,11 +378,13 @@ def main():
         
         logging.info('Checking record {0:02X}:{1:04X}...'.format(r['bankA'], r['ptrA']))
         
+        pre3A, pre3B = getBytes(romA, romB, r, -3)
         pre2A, pre2B = getBytes(romA, romB, r, -2)
         preA, preB = getBytes(romA, romB, r, -1)
         curA, curB = getBytes(romA, romB, r, 0)
         nextA, nextB = getBytes(romA, romB, r, +1)
         next2A, next2B = getBytes(romA, romB, r, +2)
+        next3A, next3B = getBytes(romA, romB, r, +3)
         r_info = getInfo(info, r['bankA'], r['ptrA'])
         
         logging.debug('    Infotype: {0!s}'.format(r_info['type']))
@@ -528,6 +552,40 @@ def main():
                 if (ptrAddrA + shift == ptrAddrB):
                     continue
         
+        if (r_info['type'] == 'ptradd'):
+        
+            banks = r['bankA'] - r_info['bank']
+            diff = r['ptrA'] - r_info['ptr']
+            offset = banks * banksize + diff
+            bank = r_info['refBank']
+            
+            if (r_info['kind'] == 'simple'):
+                # expect CODE:
+                # add a, <low_byte>
+                # ld c|e|l, a
+                # ld a, <high_byte>
+                # adc a, $00
+                # ld b|d|h, a
+                
+                # difference must be either low_byte or high_byte or both
+                if (offset in [1, 4]):
+                    
+                    # offset == 1
+                    ptrAddrAlo, ptrAddrBlo = curA, curB
+                    ptrAddrAhi, ptrAddrBhi = next3A, next3B
+                    
+                    if (offset == 4):
+                        ptrAddrAlo, ptrAddrBlo = pre3A, pre3B
+                        ptrAddrAhi, ptrAddrBhi = curA, curB
+                    
+                    prtAddrA = (ptrAddrAhi << 8) | (ptrAddrAlo)
+                    prtAddrB = (ptrAddrBhi << 8) | (ptrAddrBlo)
+                    logging.debug('    ptradd: {0:04X} -- {1:04X}'.format(ptrAddrA, ptrAddrB))
+                    shift = sumShifts(shifts, bank, ptrAddrA)
+                    logging.debug('    ptradd: shift {0:04X}'.format(shift))
+                    if (ptrAddrA + shift == ptrAddrB):
+                        continue
+                
         logging.info('    Interesting...')
         records_filtered.append(r)
 
