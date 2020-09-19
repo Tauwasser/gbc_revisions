@@ -128,25 +128,55 @@ def main():
     romA = readRom(romnameA)
     romB = readRom(romnameB)
 
-    info_regex = compile('^([a-z]+) +([0-9A-Fa-f]{2}) ([0-9A-Fa-f]{2}):([0-9A-Fa-f]{4}) ([0-9A-Fa-f]{2}):([0-9A-Fa-f]{4})$')
+    byte_pat = '[0-9A-Fa-f]{2}'
+    ptr_pat = '{0}{0}'.format(byte_pat)
+    code_regex = compile('^ *({0}) ({0}):({1}) ({0}):({1})$'.format(byte_pat, ptr_pat))
+    ptrtbl_regex = compile('^ *([lhb]{{2,3}}) ({0}) ({0}):({1}) ({0}):({1})$'.format(byte_pat, ptr_pat))
     info = []
     with open(infoname, 'r') as f:
         for line in f:
-            m = info_regex.match(line)
-            if m is None:
+            cmd, args = line.strip().split(' ', 1)
+            if (cmd == 'code'):
+                m = code_regex.match(args)
+                if (m is None):
+                    logging.warning('Malformed info entry \'{0:s}\'. Skipping...'.format(line))
+                    continue
+                bank = int(m.group(1), 16)
+                start = int(m.group(2), 16) * banksize + (int(m.group(3), 16) & 0x3FFF)
+                end = int(m.group(4), 16) * banksize + (int(m.group(5), 16) & 0x3FFF)
+                info.append({
+                    'type':    cmd,
+                    'bank':    getBank(start),
+                    'ptr' :    getPointer(start),
+                    'refBank': bank,
+                    'len' :    end - start
+                    }
+                )
+            elif (cmd == 'ptrtbl'):
+                m = ptrtbl_regex.match(args)
+                if (m is None):
+                    logging.warning('Malformed info entry \'{0:s}\'. Skipping...'.format(line))
+                    continue
+                fmt = m.group(1)
+                for fmt_char in ['l', 'h', 'b']:
+                    if (fmt.count(fmt_char) > 1 or (fmt_char != 'b' and fmt.count(fmt_char) != 1)):
+                        logging.warning('Malformed info entry \'{0:s}\'. Skipping...'.format(line))
+                        continue
+                bank = int(m.group(2), 16)
+                start = int(m.group(3), 16) * banksize + (int(m.group(4), 16) & 0x3FFF)
+                end = int(m.group(5), 16) * banksize + (int(m.group(6), 16) & 0x3FFF)
+                info.append({
+                    'type':    cmd,
+                    'fmt':     fmt,
+                    'bank':    getBank(start),
+                    'ptr' :    getPointer(start),
+                    'refBank': bank,
+                    'len' :    end - start
+                    }
+                )
+            else:
+                logging.warning('Unknown info entry \'{0:s}\'. Skipping...'.format(line))
                 continue
-            type = m.group(1)
-            bank = int(m.group(2), 16)
-            start = int(m.group(3), 16) * banksize + (int(m.group(4), 16) & 0x3FFF)
-            end = int(m.group(5), 16) * banksize + (int(m.group(6), 16) & 0x3FFF)
-            info.append({
-                'type':    type,
-                'bank':    getBank(start),
-                'ptr' :    getPointer(start),
-                'refBank': bank,
-                'len' :    end - start
-                }
-            )
 
     with open(csvname, 'r', newline='') as csvfile:
         csvr = csv.reader(csvfile, dialect='excel')
@@ -330,6 +360,7 @@ def main():
         preA, preB = getBytes(romA, romB, r, -1)
         curA, curB = getBytes(romA, romB, r, 0)
         nextA, nextB = getBytes(romA, romB, r, +1)
+        next2A, next2B = getBytes(romA, romB, r, +2)
         r_info = getInfo(info, r['bankA'], r['ptrA'])
         
         logging.debug('    Infotype: {0!s}'.format(r_info['type']))
@@ -469,17 +500,33 @@ def main():
             banks = r['bankA'] - r_info['bank']
             diff = r['ptrA'] - r_info['ptr']
             offset = banks * banksize + diff
-            if ((offset & 1) == 0):
-                ptrAddrA = (nextA << 8) | curA
-                ptrAddrB = (nextB << 8) | curB
-            else:
-                ptrAddrA = (curA << 8) | preA
-                ptrAddrB = (curB << 8) | preB
-            logging.debug('    ptrtbl: {0:04X} -- {1:04X}'.format(ptrAddrA, ptrAddrB))
-            shift = sumShifts(shifts, r_info['refBank'], ptrAddrA)
-            logging.debug('    ptrtbl: shift {0:04X}'.format(shift))
-            if (ptrAddrA + shift == ptrAddrB):
-                continue
+            bank = r_info['refBank']
+            # get shifts and number of needed bytes
+            fmt = r_info['fmt']
+            fmt_len = len(fmt)
+            byte_shift = -(offset % fmt_len)
+            needed = fmt_len + byte_shift - 1
+            # only check next bytes, because if we're in a table, we can assume the previous
+            # bytes are valid
+            if (next2A is not None or (nextA is not None and needed < 2) or (needed < 1)):
+                dataA = [pre2A, preA, curA, nextA, next2A]
+                dataB = [pre2B, preB, curB, nextB, next2B]
+                if (fmt_len < 3):
+                    dataA = dataA[1:-1]
+                    dataB = dataB[1:-1]
+                byte_shift += len(dataA) // 2
+                off = {'l': fmt.index('l'), 'h': fmt.index('h')}
+                if ('b' in fmt):
+                    off['b'] = fmt.index('b')
+                ptrAddrA = (dataA[byte_shift + off['h']] << 8) | dataA[byte_shift + off['l']]
+                ptrAddrB = (dataB[byte_shift + off['h']] << 8) | dataB[byte_shift + off['l']]
+                if ('b' in fmt):
+                    bankA = dataB[(byte_shift + off['b']) % fmt_len]
+                logging.debug('    ptrtbl: {0:04X} -- {1:04X}'.format(ptrAddrA, ptrAddrB))
+                shift = sumShifts(shifts, bankA, ptrAddrA)
+                logging.debug('    ptrtbl: shift {0:04X}'.format(shift))
+                if (ptrAddrA + shift == ptrAddrB):
+                    continue
         
         logging.info('    Interesting...')
         records_filtered.append(r)
