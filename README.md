@@ -8,6 +8,7 @@ Currently supported:
 - **Shin Megami Tensei: Aka no Sho**: Rev 1.0 and Rev 1.1
 - **Shin Megami Tensei: Kuro no Sho**: Rev 1.0 and Rev 1.1
 - **Mr. Driller (Japan)**: BMDJ Rev 1.0 and BV3J Rev 1.0
+- **Laura (Europe)**: BLDP Rev 1.0 and Nintendo Gigaleak
 
 ## Results
 
@@ -15,6 +16,7 @@ Results can be found in the *<game>_results* folders:
 - **Shin Megami Tensei: Aka no Sho**: 4049 differences trimmed to 12 principal changes
 - **Shin Megami Tensei: Kuro no Sho**: 4083 differences trimmed to 12 principal changes (which match Aka)
 - **Mr. Driller (Japan)**: 930 differences trimmed to 10
+- **Laura (Europe)**: 1011 differences trimmed to 7
 
 ## Workflow
 
