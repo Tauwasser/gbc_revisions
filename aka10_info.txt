@@ -1,4 +1,4 @@
-ptrtbl 70 70:4000 70:4BA4
+ptrtbl lh 70 70:4000 70:4BA4
 code   03 00:07B6 00:07BD
 code   03 00:07C3 00:07CA
 code   03 00:07D0 00:07D7
@@ -8,255 +8,255 @@ code   03 00:07F7 00:07FE
 code   03 00:0851 00:0858
 code   02 00:2154 00:2159
 code   03 00:39B2 00:39B9
-ptrtbl 02 02:48E9 02:48F5
-ptrtbl 02 02:48FC 02:4906
-ptrtbl 02 02:490D 02:4911
-ptrtbl 02 02:49F7 02:4A03
-ptrtbl 02 02:5147 02:5151
-ptrtbl 02 02:5638 02:564C
-ptrtbl 02 02:5CF0 02:5CFA
-ptrtbl 02 02:64ED 02:64F5
-ptrtbl 02 02:6BCE 02:6BD4
-ptrtbl 02 02:6ECD 02:6ED5
-ptrtbl 02 02:6FF6 02:6FFA
-ptrtbl 02 02:7069 02:706D
-ptrtbl 02 02:713B 02:7143
-ptrtbl 02 02:7BBB 02:7BC7
-ptrtbl 02 02:7D9F 02:7DBF
-ptrtbl 03 03:591A 03:5A00
-ptrtbl 03 03:678F 03:67A1
-ptrtbl 03 03:6CFA 03:6D0C
-ptrtbl 03 03:6D30 03:6D42
-ptrtbl 03 03:6DC7 03:6DED
-ptrtbl 03 03:6E5D 03:6E83
-ptrtbl 03 03:70F9 03:710F
-ptrtbl 03 03:7203 03:725B
-ptrtbl 03 03:76C5 03:76D7
-ptrtbl 03 03:786E 03:78A6
-ptrtbl 03 03:79F3 03:7A2B
-ptrtbl 03 03:7B20 03:7B58
-ptrtbl 03 03:7D72 03:7D7A
-ptrtbl 04 04:5D8A 04:5D94
-ptrtbl 04 04:5E22 04:5E2C
-ptrtbl 04 04:662B 04:6641
-ptrtbl 04 04:6716 04:6722
-ptrtbl 04 04:6809 04:6811
-ptrtbl 04 04:6B30 04:6B46
-ptrtbl 04 04:745A 04:748E
-ptrtbl 04 04:74CF 04:750F
-ptrtbl 13 13:4067 13:4073
-ptrtbl 13 13:4193 13:419D
-ptrtbl 13 13:41AF 13:41C1
-ptrtbl 13 13:41E4 13:4234
-ptrtbl 13 13:4280 13:4282
-ptrtbl 13 13:4286 13:4288
-ptrtbl 13 13:428C 13:428E
-ptrtbl 13 13:4292 13:4294
-ptrtbl 13 13:42F5 13:42F7
-ptrtbl 13 13:42FB 13:42FD
-ptrtbl 13 13:4301 13:4303
-ptrtbl 13 13:4307 13:4309
-ptrtbl 13 13:430E 13:4310
-ptrtbl 13 13:4314 13:4316
-ptrtbl 13 13:431A 13:431C
-ptrtbl 13 13:4320 13:4322
-ptrtbl 13 13:4326 13:4328
-ptrtbl 13 13:432E 13:4330
-ptrtbl 13 13:4334 13:4336
-ptrtbl 13 13:433A 13:433C
-ptrtbl 13 13:4340 13:4342
-ptrtbl 13 13:4346 13:4348
-ptrtbl 13 13:434D 13:434F
-ptrtbl 13 13:4353 13:4355
-ptrtbl 13 13:4359 13:435B
-ptrtbl 13 13:4360 13:4362
-ptrtbl 13 13:4366 13:4368
-ptrtbl 13 13:4380 13:4382
-ptrtbl 13 13:4386 13:4388
-ptrtbl 13 13:43A6 13:43A8
-ptrtbl 13 13:43AC 13:43AE
-ptrtbl 13 13:43B3 13:43B5
-ptrtbl 13 13:43B9 13:43BB
-ptrtbl 13 13:43C0 13:43C2
-ptrtbl 13 13:43C6 13:43C8
-ptrtbl 13 13:43CD 13:43CF
-ptrtbl 13 13:43D3 13:43D5
-ptrtbl 13 13:43E7 13:43E9
-ptrtbl 13 13:43ED 13:43EF
-ptrtbl 13 13:43F3 13:43F5
-ptrtbl 13 13:4405 13:4407
-ptrtbl 13 13:440B 13:440D
-ptrtbl 13 13:4426 13:4428
-ptrtbl 13 13:4485 13:4487
-ptrtbl 13 13:448B 13:448D
-ptrtbl 13 13:44ED 13:44EF
-ptrtbl 13 13:44F3 13:44F5
-ptrtbl 13 13:44F9 13:44FB
-ptrtbl 13 13:44FF 13:4501
-ptrtbl 13 13:4531 13:4533
-ptrtbl 13 13:4537 13:4539
-ptrtbl 13 13:4572 13:4574
-ptrtbl 13 13:4578 13:457A
-ptrtbl 13 13:4586 13:4588
-ptrtbl 13 13:458C 13:458E
-ptrtbl 13 13:4592 13:4594
-ptrtbl 13 13:4598 13:459A
-ptrtbl 13 13:459E 13:45A0
-ptrtbl 13 13:45A5 13:45A7
-ptrtbl 13 13:45AB 13:45AD
-ptrtbl 13 13:45B1 13:45B3
-ptrtbl 13 13:45B8 13:45BA
-ptrtbl 13 13:45BE 13:45C0
-ptrtbl 13 13:4A5A 13:4AB2
-ptrtbl 13 13:4C02 13:4C04
-ptrtbl 13 13:4DA8 13:4DF6
-ptrtbl 13 13:50F3 13:5127
-ptrtbl 13 13:5405 13:5441
-ptrtbl 13 13:5747 13:57B1
-ptrtbl 13 13:5835 13:5837
-ptrtbl 13 13:583B 13:583D
-ptrtbl 13 13:5841 13:5843
-ptrtbl 13 13:5848 13:584A
-ptrtbl 13 13:584E 13:5850
-ptrtbl 13 13:5854 13:5856
-ptrtbl 13 13:585B 13:585D
-ptrtbl 13 13:5861 13:5863
-ptrtbl 13 13:5867 13:5869
-ptrtbl 13 13:586E 13:5870
-ptrtbl 13 13:5874 13:5876
-ptrtbl 13 13:587A 13:587C
-ptrtbl 13 13:5881 13:5883
-ptrtbl 13 13:5887 13:5889
-ptrtbl 13 13:588E 13:5890
-ptrtbl 13 13:5894 13:5896
-ptrtbl 13 13:589A 13:589C
-ptrtbl 13 13:58A1 13:58A3
-ptrtbl 13 13:58A7 13:58A9
-ptrtbl 13 13:58AE 13:58B0
-ptrtbl 13 13:58B4 13:58B6
-ptrtbl 13 13:58BB 13:58BD
-ptrtbl 13 13:58C1 13:58C3
-ptrtbl 13 13:58C8 13:58CA
-ptrtbl 13 13:58CE 13:58D0
-ptrtbl 13 13:58D5 13:58D7
-ptrtbl 13 13:58DC 13:58DE
-ptrtbl 13 13:58E3 13:58E5
-ptrtbl 13 13:5969 13:596B
-ptrtbl 13 13:596F 13:5971
-ptrtbl 13 13:59B3 13:59B5
-ptrtbl 13 13:59BB 13:59BD
-ptrtbl 13 13:59C2 13:59C4
-ptrtbl 13 13:59C8 13:59CA
-ptrtbl 13 13:59DD 13:59DF
-ptrtbl 13 13:59E4 13:59E6
-ptrtbl 13 13:59EB 13:59ED
-ptrtbl 13 13:59F1 13:59F3
-ptrtbl 13 13:5A24 13:5A26
-ptrtbl 13 13:5A2A 13:5A2C
-ptrtbl 13 13:5C19 13:5C1B
-ptrtbl 13 13:5C26 13:5C28
-ptrtbl 13 13:5E76 13:5EA8
-ptrtbl 13 13:5FB4 13:5FB6
-ptrtbl 13 13:6037 13:6039
-ptrtbl 13 13:612B 13:613B
-ptrtbl 13 13:61BB 13:61D9
-ptrtbl 13 13:6535 13:6559
-ptrtbl 13 13:6764 13:6766
-ptrtbl 13 13:6767 13:6769
-ptrtbl 13 13:676A 13:676C
-ptrtbl 13 13:676D 13:676F
-ptrtbl 13 13:6770 13:6772
-ptrtbl 13 13:6773 13:6775
-ptrtbl 13 13:6776 13:6778
-ptrtbl 13 13:6779 13:677B
-ptrtbl 13 13:677C 13:677E
-ptrtbl 13 13:677F 13:6781
-ptrtbl 13 13:67E1 13:67E3
-ptrtbl 13 13:67E4 13:67E6
-ptrtbl 13 13:67E7 13:67E9
-ptrtbl 13 13:67EA 13:67EC
-ptrtbl 13 13:67ED 13:67EF
-ptrtbl 13 13:67F0 13:67F2
-ptrtbl 13 13:67F3 13:67F5
-ptrtbl 13 13:683D 13:683F
-ptrtbl 13 13:6840 13:6842
-ptrtbl 13 13:6843 13:6845
-ptrtbl 13 13:6846 13:6848
-ptrtbl 13 13:6878 13:687A
-ptrtbl 13 13:687B 13:687D
-ptrtbl 13 13:687E 13:6880
-ptrtbl 13 13:6881 13:6883
-ptrtbl 13 13:6884 13:6886
-ptrtbl 13 13:6887 13:6889
-ptrtbl 13 13:688A 13:688C
-ptrtbl 13 13:688D 13:688F
-ptrtbl 13 13:6890 13:6892
-ptrtbl 13 13:68EA 13:68EC
-ptrtbl 13 13:68ED 13:68EF
-ptrtbl 13 13:68F0 13:68F2
-ptrtbl 13 13:6913 13:6915
-ptrtbl 13 13:6916 13:6918
-ptrtbl 13 13:6919 13:691B
-ptrtbl 13 13:691C 13:691E
-ptrtbl 13 13:691F 13:6921
-ptrtbl 13 13:6952 13:6954
-ptrtbl 13 13:6955 13:6957
-ptrtbl 13 13:6958 13:695A
-ptrtbl 13 13:695B 13:695D
-ptrtbl 13 13:695E 13:6960
-ptrtbl 13 13:6961 13:6963
-ptrtbl 13 13:6964 13:6966
-ptrtbl 13 13:69D1 13:69D3
-ptrtbl 13 13:69D4 13:69D6
-ptrtbl 13 13:69D7 13:69D9
-ptrtbl 13 13:69DA 13:69DC
-ptrtbl 13 13:69DD 13:69DF
-ptrtbl 13 13:6A09 13:6A0B
-ptrtbl 13 13:6A0C 13:6A0E
-ptrtbl 13 13:6A0F 13:6A11
-ptrtbl 13 13:6A12 13:6A14
-ptrtbl 13 13:6A15 13:6A17
-ptrtbl 13 13:6A56 13:6A58
-ptrtbl 13 13:6A59 13:6A5B
-ptrtbl 13 13:6A5C 13:6A5E
-ptrtbl 13 13:6A5F 13:6A61
-ptrtbl 13 13:6A62 13:6A64
-ptrtbl 13 13:6A65 13:6A67
-ptrtbl 13 13:6A68 13:6A6A
-ptrtbl 13 13:6A6B 13:6A6D
-ptrtbl 13 13:6A6E 13:6A70
-ptrtbl 13 13:6A71 13:6A73
-ptrtbl 13 13:6A74 13:6A76
-ptrtbl 13 13:6A77 13:6A79
-ptrtbl 13 13:6A7A 13:6A7C
-ptrtbl 13 13:6A7D 13:6A7F
-ptrtbl 13 13:6A80 13:6A82
-ptrtbl 13 13:6A83 13:6A85
-ptrtbl 13 13:6A86 13:6A88
-ptrtbl 13 13:6A89 13:6A8B
-ptrtbl 13 13:6A8C 13:6A8E
-ptrtbl 13 13:6A8F 13:6A91
-ptrtbl 13 13:6A92 13:6A94
-ptrtbl 13 13:6B03 13:6B05
-ptrtbl 13 13:6B06 13:6B08
-ptrtbl 13 13:6B09 13:6B0B
-ptrtbl 13 13:6B0C 13:6B0E
-ptrtbl 13 13:6B37 13:6B39
-ptrtbl 13 13:6B3A 13:6B3C
-ptrtbl 13 13:6B3D 13:6B3F
-ptrtbl 13 13:6B40 13:6B42
-ptrtbl 13 13:6B43 13:6B45
-ptrtbl 13 13:6B46 13:6B48
-ptrtbl 13 13:6B49 13:6B4B
-ptrtbl 13 13:6B9A 13:6B9C
-ptrtbl 13 13:6BA6 13:6BA8
-ptrtbl 13 13:6BA9 13:6BAB
-ptrtbl 13 13:6BBD 13:6BBF
-ptrtbl 13 13:6BC0 13:6BC2
-ptrtbl 13 13:6BC3 13:6BC5
-ptrtbl 13 13:6BC6 13:6BC8
-ptrtbl 13 13:6BEA 13:6BEC
-ptrtbl 13 13:6BED 13:6BEF
-ptrtbl 13 13:6BF0 13:6BF2
-ptrtbl 13 13:6BF3 13:6BF5
-ptrtbl 13 13:6C2C 13:6C2E
+ptrtbl lh 02 02:48E9 02:48F5
+ptrtbl lh 02 02:48FC 02:4906
+ptrtbl lh 02 02:490D 02:4911
+ptrtbl lh 02 02:49F7 02:4A03
+ptrtbl lh 02 02:5147 02:5151
+ptrtbl lh 02 02:5638 02:564C
+ptrtbl lh 02 02:5CF0 02:5CFA
+ptrtbl lh 02 02:64ED 02:64F5
+ptrtbl lh 02 02:6BCE 02:6BD4
+ptrtbl lh 02 02:6ECD 02:6ED5
+ptrtbl lh 02 02:6FF6 02:6FFA
+ptrtbl lh 02 02:7069 02:706D
+ptrtbl lh 02 02:713B 02:7143
+ptrtbl lh 02 02:7BBB 02:7BC7
+ptrtbl lh 02 02:7D9F 02:7DBF
+ptrtbl lh 03 03:591A 03:5A00
+ptrtbl lh 03 03:678F 03:67A1
+ptrtbl lh 03 03:6CFA 03:6D0C
+ptrtbl lh 03 03:6D30 03:6D42
+ptrtbl lh 03 03:6DC7 03:6DED
+ptrtbl lh 03 03:6E5D 03:6E83
+ptrtbl lh 03 03:70F9 03:710F
+ptrtbl lh 03 03:7203 03:725B
+ptrtbl lh 03 03:76C5 03:76D7
+ptrtbl lh 03 03:786E 03:78A6
+ptrtbl lh 03 03:79F3 03:7A2B
+ptrtbl lh 03 03:7B20 03:7B58
+ptrtbl lh 03 03:7D72 03:7D7A
+ptrtbl lh 04 04:5D8A 04:5D94
+ptrtbl lh 04 04:5E22 04:5E2C
+ptrtbl lh 04 04:662B 04:6641
+ptrtbl lh 04 04:6716 04:6722
+ptrtbl lh 04 04:6809 04:6811
+ptrtbl lh 04 04:6B30 04:6B46
+ptrtbl lh 04 04:745A 04:748E
+ptrtbl lh 04 04:74CF 04:750F
+ptrtbl lh 13 13:4067 13:4073
+ptrtbl lh 13 13:4193 13:419D
+ptrtbl lh 13 13:41AF 13:41C1
+ptrtbl lh 13 13:41E4 13:4234
+ptrtbl lh 13 13:4280 13:4282
+ptrtbl lh 13 13:4286 13:4288
+ptrtbl lh 13 13:428C 13:428E
+ptrtbl lh 13 13:4292 13:4294
+ptrtbl lh 13 13:42F5 13:42F7
+ptrtbl lh 13 13:42FB 13:42FD
+ptrtbl lh 13 13:4301 13:4303
+ptrtbl lh 13 13:4307 13:4309
+ptrtbl lh 13 13:430E 13:4310
+ptrtbl lh 13 13:4314 13:4316
+ptrtbl lh 13 13:431A 13:431C
+ptrtbl lh 13 13:4320 13:4322
+ptrtbl lh 13 13:4326 13:4328
+ptrtbl lh 13 13:432E 13:4330
+ptrtbl lh 13 13:4334 13:4336
+ptrtbl lh 13 13:433A 13:433C
+ptrtbl lh 13 13:4340 13:4342
+ptrtbl lh 13 13:4346 13:4348
+ptrtbl lh 13 13:434D 13:434F
+ptrtbl lh 13 13:4353 13:4355
+ptrtbl lh 13 13:4359 13:435B
+ptrtbl lh 13 13:4360 13:4362
+ptrtbl lh 13 13:4366 13:4368
+ptrtbl lh 13 13:4380 13:4382
+ptrtbl lh 13 13:4386 13:4388
+ptrtbl lh 13 13:43A6 13:43A8
+ptrtbl lh 13 13:43AC 13:43AE
+ptrtbl lh 13 13:43B3 13:43B5
+ptrtbl lh 13 13:43B9 13:43BB
+ptrtbl lh 13 13:43C0 13:43C2
+ptrtbl lh 13 13:43C6 13:43C8
+ptrtbl lh 13 13:43CD 13:43CF
+ptrtbl lh 13 13:43D3 13:43D5
+ptrtbl lh 13 13:43E7 13:43E9
+ptrtbl lh 13 13:43ED 13:43EF
+ptrtbl lh 13 13:43F3 13:43F5
+ptrtbl lh 13 13:4405 13:4407
+ptrtbl lh 13 13:440B 13:440D
+ptrtbl lh 13 13:4426 13:4428
+ptrtbl lh 13 13:4485 13:4487
+ptrtbl lh 13 13:448B 13:448D
+ptrtbl lh 13 13:44ED 13:44EF
+ptrtbl lh 13 13:44F3 13:44F5
+ptrtbl lh 13 13:44F9 13:44FB
+ptrtbl lh 13 13:44FF 13:4501
+ptrtbl lh 13 13:4531 13:4533
+ptrtbl lh 13 13:4537 13:4539
+ptrtbl lh 13 13:4572 13:4574
+ptrtbl lh 13 13:4578 13:457A
+ptrtbl lh 13 13:4586 13:4588
+ptrtbl lh 13 13:458C 13:458E
+ptrtbl lh 13 13:4592 13:4594
+ptrtbl lh 13 13:4598 13:459A
+ptrtbl lh 13 13:459E 13:45A0
+ptrtbl lh 13 13:45A5 13:45A7
+ptrtbl lh 13 13:45AB 13:45AD
+ptrtbl lh 13 13:45B1 13:45B3
+ptrtbl lh 13 13:45B8 13:45BA
+ptrtbl lh 13 13:45BE 13:45C0
+ptrtbl lh 13 13:4A5A 13:4AB2
+ptrtbl lh 13 13:4C02 13:4C04
+ptrtbl lh 13 13:4DA8 13:4DF6
+ptrtbl lh 13 13:50F3 13:5127
+ptrtbl lh 13 13:5405 13:5441
+ptrtbl lh 13 13:5747 13:57B1
+ptrtbl lh 13 13:5835 13:5837
+ptrtbl lh 13 13:583B 13:583D
+ptrtbl lh 13 13:5841 13:5843
+ptrtbl lh 13 13:5848 13:584A
+ptrtbl lh 13 13:584E 13:5850
+ptrtbl lh 13 13:5854 13:5856
+ptrtbl lh 13 13:585B 13:585D
+ptrtbl lh 13 13:5861 13:5863
+ptrtbl lh 13 13:5867 13:5869
+ptrtbl lh 13 13:586E 13:5870
+ptrtbl lh 13 13:5874 13:5876
+ptrtbl lh 13 13:587A 13:587C
+ptrtbl lh 13 13:5881 13:5883
+ptrtbl lh 13 13:5887 13:5889
+ptrtbl lh 13 13:588E 13:5890
+ptrtbl lh 13 13:5894 13:5896
+ptrtbl lh 13 13:589A 13:589C
+ptrtbl lh 13 13:58A1 13:58A3
+ptrtbl lh 13 13:58A7 13:58A9
+ptrtbl lh 13 13:58AE 13:58B0
+ptrtbl lh 13 13:58B4 13:58B6
+ptrtbl lh 13 13:58BB 13:58BD
+ptrtbl lh 13 13:58C1 13:58C3
+ptrtbl lh 13 13:58C8 13:58CA
+ptrtbl lh 13 13:58CE 13:58D0
+ptrtbl lh 13 13:58D5 13:58D7
+ptrtbl lh 13 13:58DC 13:58DE
+ptrtbl lh 13 13:58E3 13:58E5
+ptrtbl lh 13 13:5969 13:596B
+ptrtbl lh 13 13:596F 13:5971
+ptrtbl lh 13 13:59B3 13:59B5
+ptrtbl lh 13 13:59BB 13:59BD
+ptrtbl lh 13 13:59C2 13:59C4
+ptrtbl lh 13 13:59C8 13:59CA
+ptrtbl lh 13 13:59DD 13:59DF
+ptrtbl lh 13 13:59E4 13:59E6
+ptrtbl lh 13 13:59EB 13:59ED
+ptrtbl lh 13 13:59F1 13:59F3
+ptrtbl lh 13 13:5A24 13:5A26
+ptrtbl lh 13 13:5A2A 13:5A2C
+ptrtbl lh 13 13:5C19 13:5C1B
+ptrtbl lh 13 13:5C26 13:5C28
+ptrtbl lh 13 13:5E76 13:5EA8
+ptrtbl lh 13 13:5FB4 13:5FB6
+ptrtbl lh 13 13:6037 13:6039
+ptrtbl lh 13 13:612B 13:613B
+ptrtbl lh 13 13:61BB 13:61D9
+ptrtbl lh 13 13:6535 13:6559
+ptrtbl lh 13 13:6764 13:6766
+ptrtbl lh 13 13:6767 13:6769
+ptrtbl lh 13 13:676A 13:676C
+ptrtbl lh 13 13:676D 13:676F
+ptrtbl lh 13 13:6770 13:6772
+ptrtbl lh 13 13:6773 13:6775
+ptrtbl lh 13 13:6776 13:6778
+ptrtbl lh 13 13:6779 13:677B
+ptrtbl lh 13 13:677C 13:677E
+ptrtbl lh 13 13:677F 13:6781
+ptrtbl lh 13 13:67E1 13:67E3
+ptrtbl lh 13 13:67E4 13:67E6
+ptrtbl lh 13 13:67E7 13:67E9
+ptrtbl lh 13 13:67EA 13:67EC
+ptrtbl lh 13 13:67ED 13:67EF
+ptrtbl lh 13 13:67F0 13:67F2
+ptrtbl lh 13 13:67F3 13:67F5
+ptrtbl lh 13 13:683D 13:683F
+ptrtbl lh 13 13:6840 13:6842
+ptrtbl lh 13 13:6843 13:6845
+ptrtbl lh 13 13:6846 13:6848
+ptrtbl lh 13 13:6878 13:687A
+ptrtbl lh 13 13:687B 13:687D
+ptrtbl lh 13 13:687E 13:6880
+ptrtbl lh 13 13:6881 13:6883
+ptrtbl lh 13 13:6884 13:6886
+ptrtbl lh 13 13:6887 13:6889
+ptrtbl lh 13 13:688A 13:688C
+ptrtbl lh 13 13:688D 13:688F
+ptrtbl lh 13 13:6890 13:6892
+ptrtbl lh 13 13:68EA 13:68EC
+ptrtbl lh 13 13:68ED 13:68EF
+ptrtbl lh 13 13:68F0 13:68F2
+ptrtbl lh 13 13:6913 13:6915
+ptrtbl lh 13 13:6916 13:6918
+ptrtbl lh 13 13:6919 13:691B
+ptrtbl lh 13 13:691C 13:691E
+ptrtbl lh 13 13:691F 13:6921
+ptrtbl lh 13 13:6952 13:6954
+ptrtbl lh 13 13:6955 13:6957
+ptrtbl lh 13 13:6958 13:695A
+ptrtbl lh 13 13:695B 13:695D
+ptrtbl lh 13 13:695E 13:6960
+ptrtbl lh 13 13:6961 13:6963
+ptrtbl lh 13 13:6964 13:6966
+ptrtbl lh 13 13:69D1 13:69D3
+ptrtbl lh 13 13:69D4 13:69D6
+ptrtbl lh 13 13:69D7 13:69D9
+ptrtbl lh 13 13:69DA 13:69DC
+ptrtbl lh 13 13:69DD 13:69DF
+ptrtbl lh 13 13:6A09 13:6A0B
+ptrtbl lh 13 13:6A0C 13:6A0E
+ptrtbl lh 13 13:6A0F 13:6A11
+ptrtbl lh 13 13:6A12 13:6A14
+ptrtbl lh 13 13:6A15 13:6A17
+ptrtbl lh 13 13:6A56 13:6A58
+ptrtbl lh 13 13:6A59 13:6A5B
+ptrtbl lh 13 13:6A5C 13:6A5E
+ptrtbl lh 13 13:6A5F 13:6A61
+ptrtbl lh 13 13:6A62 13:6A64
+ptrtbl lh 13 13:6A65 13:6A67
+ptrtbl lh 13 13:6A68 13:6A6A
+ptrtbl lh 13 13:6A6B 13:6A6D
+ptrtbl lh 13 13:6A6E 13:6A70
+ptrtbl lh 13 13:6A71 13:6A73
+ptrtbl lh 13 13:6A74 13:6A76
+ptrtbl lh 13 13:6A77 13:6A79
+ptrtbl lh 13 13:6A7A 13:6A7C
+ptrtbl lh 13 13:6A7D 13:6A7F
+ptrtbl lh 13 13:6A80 13:6A82
+ptrtbl lh 13 13:6A83 13:6A85
+ptrtbl lh 13 13:6A86 13:6A88
+ptrtbl lh 13 13:6A89 13:6A8B
+ptrtbl lh 13 13:6A8C 13:6A8E
+ptrtbl lh 13 13:6A8F 13:6A91
+ptrtbl lh 13 13:6A92 13:6A94
+ptrtbl lh 13 13:6B03 13:6B05
+ptrtbl lh 13 13:6B06 13:6B08
+ptrtbl lh 13 13:6B09 13:6B0B
+ptrtbl lh 13 13:6B0C 13:6B0E
+ptrtbl lh 13 13:6B37 13:6B39
+ptrtbl lh 13 13:6B3A 13:6B3C
+ptrtbl lh 13 13:6B3D 13:6B3F
+ptrtbl lh 13 13:6B40 13:6B42
+ptrtbl lh 13 13:6B43 13:6B45
+ptrtbl lh 13 13:6B46 13:6B48
+ptrtbl lh 13 13:6B49 13:6B4B
+ptrtbl lh 13 13:6B9A 13:6B9C
+ptrtbl lh 13 13:6BA6 13:6BA8
+ptrtbl lh 13 13:6BA9 13:6BAB
+ptrtbl lh 13 13:6BBD 13:6BBF
+ptrtbl lh 13 13:6BC0 13:6BC2
+ptrtbl lh 13 13:6BC3 13:6BC5
+ptrtbl lh 13 13:6BC6 13:6BC8
+ptrtbl lh 13 13:6BEA 13:6BEC
+ptrtbl lh 13 13:6BED 13:6BEF
+ptrtbl lh 13 13:6BF0 13:6BF2
+ptrtbl lh 13 13:6BF3 13:6BF5
+ptrtbl lh 13 13:6C2C 13:6C2E
