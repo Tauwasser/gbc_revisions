@@ -117,6 +117,8 @@ def parseGfxStructs(banks):
         
         # if first byte 0xFF: structure 0xFF l h b
         # --> output offset+1:offset+4 as ptrtbl lhb
+        # up to 0x20 bytes follow this command as a variable payload for function b:hl,
+        # which is called with a pointer to the (copied) payload in hl
         if (data[offset] == 0xFF):
             bank = 0x01
             start = ptr + 1

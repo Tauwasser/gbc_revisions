@@ -40,6 +40,7 @@ ptrtbl lhb 00 00:3994 00:399A
 ptrtbl lhb 00 00:3AF8 00:3AFE
 ptrtbl lhb 00 00:3B19 00:3B1F
 ptrtbl lhb 00 00:3B63 00:3B69
+ptrtbl lh 00 01:6B9E 01:6BA0
 ptrtbl lhb 01 01:6B61 01:6B64
 ptrtbl lhb 01 01:6B5D 01:6B60
 ptrtbl lhb 01 01:6C56 01:6C59
