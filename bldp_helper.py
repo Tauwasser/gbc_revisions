@@ -78,6 +78,51 @@ def searchFarCalls(banks):
             
             offset += 1
 
+def parseGfxStructs(banks):
+    
+    data = banks[1]
+    
+    # 2byte ptr table at 4AEE until 4C00
+    start = 0x4AEE
+    end = 0x4C00
+    
+    ptrs = [((data[o+1] << 8) | data[o+0]) for o in range(start & 0x3FFF, end & 0x3FFF, 2)]
+    # if bit 7 of second byte is set, it's actually a reference to another entry (stored in low byte)
+    ptrs = list(filter(lambda ptr: ptr < 0x8000, ptrs))
+    
+    for ptr in ptrs:
+        
+        offset = ptr & 0x3FFF
+        
+        # if first byte <> 0xFF: structure [WRAM bank][VRAM bank][control]...
+        # then depending on control:
+        # 76543210
+        # |||||||\- decompress gfx/RNC file relative/absolute
+        # ||||||\-- unused
+        # |||||\--- call 1:6EB0 before restarting (palette calculation)
+        # ||||\---- decompress gfx/RNC file
+        # |||\----- copy two bytes from 1:hl to de
+        # ||\------ unused
+        # |\------- unused
+        # \-------- unused
+        # payload: [e][d][l][h] --> copy from 9:hl to de
+        while (data[offset] != 0xFF):
+            # WRAM VRAM Control
+            control = data[offset+2]
+            offset += 3
+            ptr += 3
+            # skip payload
+            offset += 4
+            ptr += 4
+        
+        # if first byte 0xFF: structure 0xFF l h b
+        # --> output offset+1:offset+4 as ptrtbl lhb
+        if (data[offset] == 0xFF):
+            bank = 0x01
+            start = ptr + 1
+            end = ptr + 4
+            print(f'ptrtbl lhb {bank:02X} {bank:02X}:{start:04X} {bank:02X}:{end:04X}')
+
 def main():
 
     logLevelMap = {
@@ -99,6 +144,8 @@ def main():
     parser_far_call = subparsers.add_parser('far-call', help='Search rst $8 far-calls in ROM banks')
     parser_far_call.add_argument('bank', type=int, nargs='+', help='ROM banks to process')
     
+    parser_gfx_struct = subparsers.add_parser('gfx-struct', help='Process GFX structs in RB 0x01')
+    
     # Parse arguments
     args = parser.parse_args()
     
@@ -114,11 +161,15 @@ def main():
     banks = []
     if (args.sub_command == 'far-call'):
         banks = args.bank
+    elif (args.sub_command == 'gfx-struct'):
+        banks = [1]
     
     banks = cacheRomBanks(romfile, banks)
     
     if (args.sub_command == 'far-call'):
         searchFarCalls(banks)
+    elif (args.sub_command == 'gfx-struct'):
+        parseGfxStructs(banks)
     
     return 0
 
