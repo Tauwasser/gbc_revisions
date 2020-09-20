@@ -542,6 +542,7 @@ def main():
                 off = {'l': fmt.index('l'), 'h': fmt.index('h')}
                 if ('b' in fmt):
                     off['b'] = fmt.index('b')
+                bankA = r_info['refBank']
                 ptrAddrA = (dataA[byte_shift + off['h']] << 8) | dataA[byte_shift + off['l']]
                 ptrAddrB = (dataB[byte_shift + off['h']] << 8) | dataB[byte_shift + off['l']]
                 if ('b' in fmt):
