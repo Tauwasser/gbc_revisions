@@ -22,54 +22,29 @@ def setMultiLineFormatterLogging():
     l.addHandler(h)
     return l
 
-def main():
-
-    logLevelMap = {
-        'debug':   logging.DEBUG,
-        'info':    logging.INFO,
-        'warning': logging.WARNING,
-        'error':   logging.ERROR,
-        }
+def cacheRomBanks(romfile, banks):
     
-    l = setMultiLineFormatterLogging()
-    l.setLevel(logging.INFO)
-    
-    parser = argparse.ArgumentParser(description='Find BLDP-style 3-byte pointer tables in ROM banks',
-                                     formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument('--loglevel', help='Loglevel, one of \'DEBUG\', \'INFO\' (default), \'WARNING\', \'ERROR\'.', type=str, default='INFO')
-    parser.add_argument('romfile', help='path to ROM file to search')
-    parser.add_argument('bank', type=int, nargs='+', help='ROM banks to search')
-    
-    # Parse arguments
-    args = parser.parse_args()
-    
-    # Set User Loglevel
-    logLevel = logLevelMap.get(args.loglevel.lower(), None)
-    if (logLevel is None):
-        logging.error('Invalid loglevel \'{0:s}\' passed. Exiting...'.format(args.loglevel))
-        return -1
-    l.setLevel(logLevel)
-    
-    romfile = args.romfile
-    
-    banks = {}
+    cached_banks = {}
     
     with open(romfile, 'rb') as f:
         # cache banks
-        for bank in sorted(args.bank):
+        for bank in banks:
             
             # seek to correct offset
             f.seek(bank * banksize, 0)
             
-            banks[bank] = f.read(banksize)
+            cached_banks[bank] = f.read(banksize)
             
-            if (len(banks[bank]) < banksize):
+            if (len(cached_banks[bank]) < banksize):
                 logging.fatal(f'Bank 0x{bank:02X} could not be fully read.')
                 return -2
     
-    for bank in args.bank:
+    return cached_banks
+
+def searchFarCalls(banks):
+
+    for bank, data in banks.items():
         
-        data = banks[bank]
         offset = 0
         
         while (offset < banksize):
@@ -102,7 +77,48 @@ def main():
                 continue
             
             offset += 1
-        
+
+def main():
+
+    logLevelMap = {
+        'debug':   logging.DEBUG,
+        'info':    logging.INFO,
+        'warning': logging.WARNING,
+        'error':   logging.ERROR,
+        }
+    
+    l = setMultiLineFormatterLogging()
+    l.setLevel(logging.INFO)
+    
+    parser = argparse.ArgumentParser(description='Find BLDP-style 3-byte pointer tables in ROM banks',
+                                     formatter_class=argparse.RawTextHelpFormatter)
+    parser.add_argument('--loglevel', help='Loglevel, one of \'DEBUG\', \'INFO\' (default), \'WARNING\', \'ERROR\'.', type=str, default='INFO')
+    parser.add_argument('romfile', help='path to ROM file')
+    subparsers = parser.add_subparsers(dest='sub_command', help='sub-command')
+    
+    parser_far_call = subparsers.add_parser('far-call', help='Search rst $8 far-calls in ROM banks')
+    parser_far_call.add_argument('bank', type=int, nargs='+', help='ROM banks to process')
+    
+    # Parse arguments
+    args = parser.parse_args()
+    
+    # Set User Loglevel
+    logLevel = logLevelMap.get(args.loglevel.lower(), None)
+    if (logLevel is None):
+        logging.error('Invalid loglevel \'{0:s}\' passed. Exiting...'.format(args.loglevel))
+        return -1
+    l.setLevel(logLevel)
+    
+    romfile = args.romfile
+    
+    banks = []
+    if (args.sub_command == 'far-call'):
+        banks = args.bank
+    
+    banks = cacheRomBanks(romfile, banks)
+    
+    if (args.sub_command == 'far-call'):
+        searchFarCalls(banks)
     
     return 0
 
