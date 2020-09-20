@@ -34,9 +34,9 @@ Difference,8E7h,2h,8E7h,64h
 Match,8E9h,Dh,94Bh,Dh
 Difference,8F6h,2h,958h,2h
 Match,8F8h,1h,95Ah,1h
-Only in B,,,95Bh,2h
-Match,8F9h,1h,95Dh,1h
-Difference,8FAh,3h,95Eh,1h
+Difference,8F9h,2h,95Bh,2h
+Match,8FBh,1h,95Dh,1h
+Difference,8FCh,1h,95Eh,1h
 Match,8FDh,2h,95Fh,2h
 Difference,8FFh,2h,961h,2h
 Match,901h,71h,963h,71h
@@ -66,9 +66,7 @@ Difference,B91h,1h,BF3h,1h
 Match,B92h,9h,BF4h,9h
 Difference,B9Bh,1h,BFDh,1h
 Match,B9Ch,21Eh,BFEh,21Eh
-Only in A,DBAh,1h,,
-Match,DBBh,1h,E1Ch,1h
-Only in B,,,E1Dh,1h
+Difference,DBAh,2h,E1Ch,2h
 Match,DBCh,5Bh,E1Eh,5Bh
 Difference,E17h,1h,E79h,1h
 Match,E18h,3Ah,E7Ah,3Ah
